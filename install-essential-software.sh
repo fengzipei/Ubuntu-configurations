@@ -11,3 +11,4 @@ sudo apt install openjdk-8-jdk
 sudo apt install nmap
 sudo apt install maven
 sudo apt install curl
+sudo apt install zsh
