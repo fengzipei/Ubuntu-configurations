@@ -1,3 +1,2 @@
 set -e
-git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
-sh ~/.vim_runtime/install_awesome_vimrc.sh
+curl https://raw.githubusercontent.com/amix/vimrc/master/vimrcs/basic.vim > ~/.vimrc
