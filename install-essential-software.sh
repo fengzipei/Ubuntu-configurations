@@ -1,14 +1,15 @@
 set -e
-sudo apt update
-sudo apt install vim 
-sudo apt install screen
-sudo apt install git
-sudo apt install openssh-server
-sudo apt install htop
-sudo apt install iotop
-sudo apt install nethogs
-sudo apt install openjdk-8-jdk
-sudo apt install nmap
-sudo apt install maven
-sudo apt install curl
-sudo apt install zsh
+sudo apt update -y
+sudo apt install vim -y
+sudo apt install screen -y
+sudo apt install git -y
+sudo apt install openssh-server -y
+sudo apt install htop -y
+sudo apt install iotop -y
+sudo apt install nethogs -y
+sudo apt install openjdk-8-jdk -y
+sudo apt install nmap -y
+sudo apt install maven -y
+sudo apt install curl -y
+sudo apt install zsh -y
+sudo apt upgrade -y
