@@ -1,15 +1,17 @@
 set -e
 sudo apt update -y
-sudo apt install vim -y
-sudo apt install screen -y
-sudo apt install git -y
-sudo apt install openssh-server -y
-sudo apt install htop -y
-sudo apt install iotop -y
-sudo apt install nethogs -y
-sudo apt install openjdk-8-jdk -y
-sudo apt install nmap -y
-sudo apt install maven -y
-sudo apt install curl -y
-sudo apt install zsh -y
-sudo apt upgrade -y
+sudo apt install -y build-essential 
+sudo apt install -y gdb 
+sudo apt install -y vim 
+sudo apt install -y screen 
+sudo apt install -y git 
+sudo apt install -y openssh-server 
+sudo apt install -y htop 
+sudo apt install -y iotop 
+sudo apt install -y nethogs 
+sudo apt install -y openjdk-8-jdk 
+sudo apt install -y nmap 
+sudo apt install -y maven 
+sudo apt install -y curl 
+sudo apt install -y zsh 
+sudo apt upgrade -y 
